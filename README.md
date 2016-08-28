@@ -10,3 +10,15 @@ Na server se uloží jen jeden jediný soubor, ve kterém jsou všechny potřebn
 Součástí balíčku je i ukázkový PHP kód s chybou, na kterém si můžete Validátor vyzkoušet.
 
 Budu rád za nápady, co by další nová verze měla obsahovat. Už teď mohu slíbit detekci "nekonečných" cyklů, kontrolu výrazů a hledání zbytečně pomalých míst v kódu.
+
+Instalace
+---------
+
+Do kódu stránky stačí vložit jen:
+
+```php
+<?php
+include 'validator.php';
+```
+
+A scripty se o vše automaticky postarají.
